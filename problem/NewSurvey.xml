@@ -22,6 +22,7 @@ def hintfn1(answer_ids, student_answers, new_cmap, old_cmap):
 </script>
 
 <optionresponse>
+Some options?
       <optioninput options="('option1','option2','option3')" correct="option1"></optioninput>
           <hintgroup hintfn="hintfn1"/>
 </optionresponse>
