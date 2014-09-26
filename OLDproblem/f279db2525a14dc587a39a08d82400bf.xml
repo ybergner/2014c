@@ -1,0 +1,21 @@
+<problem display_name="Dropdown" markdown="null" weight="0.0">
+  <p>
+    <center>
+      <img src="/static/2530.JPG"/>
+    </center>
+  </p>
+  <p>If x and y are integers, then the expression 4 x + 5 y has a value that is odd or even depending on the values of x and y. For example, if x and y are each even, 4 x is even and 5 y is even. Therefore, 4 x + 5 y is also even. </p>
+  <p> For each of the blank rows in the table, indicate whether the value of 4 x + 5 y is odd or even. </p>
+  <p>For second row:</p>
+  <optionresponse>
+    <optioninput label="For second row:" options="('Odd','Even','')" correct="Odd"/>
+  </optionresponse>
+  <p>For third row:</p>
+  <optionresponse>
+    <optioninput label="For third row:" options="('Odd','Even','')" correct="Even"/>
+  </optionresponse>
+  <p>For fourth row:</p>
+  <optionresponse>
+    <optioninput label="For fourth row:" options="('Odd','Even','')" correct="Odd"/>
+  </optionresponse>
+</problem>

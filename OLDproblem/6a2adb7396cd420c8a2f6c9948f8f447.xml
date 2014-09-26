@@ -1,0 +1,18 @@
+<problem display_name="Numerical Input" markdown="null" weight="0.0">
+  <p>In the scatterplot below, each point represents the adult heights of a sister-brother pair.</p>
+  <p>
+    <center>
+      <img src="/static/3501.JPG"/>
+    </center>
+  </p>
+  <p>What is the brother’s height that corresponds to the tallest sister’s height?</p>
+  <p>
+    <p style="display:inline">  </p>
+    <numericalresponse inline="1" answer="71">
+      <textline inline="1">
+        <responseparam type="tolerance" default="0%"/>
+      </textline>
+    </numericalresponse>
+    <p style="display:inline">inches</p>
+  </p>
+</problem>

@@ -1,0 +1,12 @@
+<problem display_name="Numerical Input" markdown="null" weight="0.0">
+  <p>The average weight of 50 prize-winning tomatoes is 2.36 pounds. What is the combined weight, in pounds, of these 50 tomatoes?</p>
+  <p>
+    <p style="display:inline">  </p>
+    <numericalresponse inline="1" answer="118">
+      <textline inline="1">
+        <responseparam type="tolerance" default="0%"/>
+      </textline>
+    </numericalresponse>
+    <p style="display:inline">pounds</p>
+  </p>
+</problem>

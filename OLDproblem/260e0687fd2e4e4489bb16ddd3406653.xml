@@ -1,0 +1,15 @@
+<problem display_name="Numerical Input" markdown="null" weight="0.0">
+  <p>
+    <img src="/static/1641.jpg"/>
+  </p>
+  <p>If you were to redraw the diagram using a scale of 3/4 inch = 10 feet, what would be the length of the side that is 48 feet? </p>
+  <p>
+    <p style="display:inline">  </p>
+    <numericalresponse inline="1" answer="3.6">
+      <textline inline="1">
+        <responseparam type="tolerance" default="0%"/>
+      </textline>
+    </numericalresponse>
+    <p style="display:inline">inches</p>
+  </p>
+</problem>

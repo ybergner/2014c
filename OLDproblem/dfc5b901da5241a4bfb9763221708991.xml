@@ -1,0 +1,12 @@
+<problem display_name="Numerical Input" markdown="null" weight="0.0">
+  <p> If each of the counting numbers from 1 through 10 is multiplied by 13, how many of the resulting numbers will be even?</p>
+  <p>
+    <p style="display:inline">  </p>
+    <numericalresponse inline="1" answer="5">
+      <textline inline="1">
+        <responseparam type="tolerance" default="0%"/>
+      </textline>
+    </numericalresponse>
+    <p style="display:inline"/>
+  </p>
+</problem>

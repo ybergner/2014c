@@ -1,0 +1,6 @@
+<problem display_name="Numerical Input" markdown="&lt;p&gt;What is the distance between the points (2,10) and (-4,2) in the &lt;i&gt;xy&lt;/i&gt;-plane?&lt;/p&gt;&#10;= 10&#10;" weight="0.0">
+  <p>What is the distance between the points (2,10) and (-4,2) in the <i>xy</i>-plane?</p>
+  <numericalresponse answer="10">
+    <formulaequationinput/>
+  </numericalresponse>
+</problem>

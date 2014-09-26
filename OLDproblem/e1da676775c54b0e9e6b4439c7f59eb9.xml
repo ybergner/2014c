@@ -1,0 +1,14 @@
+<problem display_name="Numerical Input" markdown="&lt;p&gt;&lt;center&gt;GENDER AND COLOR OF PUPPIES&lt;/center&gt;&lt;/p&gt;&#10;&lt;p&gt;&lt;center&gt;&lt;img src=&quot;/static/2246.JPG&quot; /&gt;&lt;/center&gt;&lt;/p&gt;&#10;&#10;&gt;&gt;The table above shows the gender and color of 7 puppies. If a puppy selected at random from the group is brown, what is the probability it is a male?&lt;&lt;&#10;= 1/4&#10;&#10;" weight="0.0">
+  <p>
+    <center>GENDER AND COLOR OF PUPPIES</center>
+  </p>
+  <p>
+    <center>
+      <img src="/static/2246.JPG"/>
+    </center>
+  </p>
+  <p>The table above shows the gender and color of 7 puppies. If a puppy selected at random from the group is brown, what is the probability it is a male?</p>
+  <numericalresponse answer="1/4">
+    <formulaequationinput label="The table above shows the gender and color of 7 puppies. If a puppy selected at random from the group is brown, what is the probability it is a male?"/>
+  </numericalresponse>
+</problem>

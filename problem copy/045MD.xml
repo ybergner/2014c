@@ -1,0 +1,6 @@
+<problem display_name="Numerical Input" markdown="&gt;&gt;From a shipment of 500 batteries, a sample of 25 was selected at random and tested. If 2 batteries in the sample were found to be dead, how many dead batteries would be expected in the entire shipment?&lt;&lt;&#10;= 40&#10;&#10;" weight="0.0">
+  <p>From a shipment of 500 batteries, a sample of 25 was selected at random and tested. If 2 batteries in the sample were found to be dead, how many dead batteries would be expected in the entire shipment?</p>
+  <numericalresponse answer="40">
+    <formulaequationinput label="From a shipment of 500 batteries, a sample of 25 was selected at random and tested. If 2 batteries in the sample were found to be dead, how many dead batteries would be expected in the entire shipment?"/>
+  </numericalresponse>
+</problem>

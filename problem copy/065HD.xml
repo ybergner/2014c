@@ -1,0 +1,11 @@
+<problem display_name="Numerical Input" markdown="  &lt;p&gt;&lt;center&gt;&lt;img src=&quot;/static/1765.jpg&quot; /&gt;&lt;/center&gt;&lt;/p&gt;&#10;&#10;&gt;&gt;According to the box-and-whisker plot above, three-fourths of the cars made by Company X got fewer than how many miles per gallon?&lt;&lt;&#10;= 33&#10;&#10;&#10;&#10;" weight="0.0">
+  <p>
+    <center>
+      <img src="/static/1765.jpg"/>
+    </center>
+  </p>
+  <p>According to the box-and-whisker plot above, three-fourths of the cars made by Company X got fewer than how many miles per gallon?</p>
+  <numericalresponse answer="33">
+    <formulaequationinput label="According to the box-and-whisker plot above, three-fourths of the cars made by Company X got fewer than how many miles per gallon?"/>
+  </numericalresponse>
+</problem>

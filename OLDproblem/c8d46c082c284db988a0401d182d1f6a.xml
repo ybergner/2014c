@@ -1,0 +1,6 @@
+<problem display_name="Numerical Input" markdown="&gt;&gt;The least common multiple of 8, 12, and a third number is 120. What whole number could be the third number?&lt;&lt;&#10;= 15&#10;&#10;" weight="0.0">
+  <p>The least common multiple of 8, 12, and a third number is 120. What whole number could be the third number?</p>
+  <numericalresponse answer="15">
+    <formulaequationinput label="The least common multiple of 8, 12, and a third number is 120. What whole number could be the third number?"/>
+  </numericalresponse>
+</problem>

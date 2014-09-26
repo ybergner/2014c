@@ -1,0 +1,11 @@
+<problem display_name="Numerical Input" markdown="&lt;p&gt;&lt;center&gt;&lt;img src=&quot;/static/6575.gif&quot; /&gt;&lt;/center&gt;&lt;/p&gt;&#10;&#10;&gt;&gt;In the graph above, each dot shows the number of sit-ups and the corresponding age for one of 13 people. According to this graph, what is the median number of sit-ups for these 13 people?&lt;&lt;&#10;= 50&#10;&#10;" weight="0.0">
+  <p>
+    <center>
+      <img src="/static/6575.gif"/>
+    </center>
+  </p>
+  <p>In the graph above, each dot shows the number of sit-ups and the corresponding age for one of 13 people. According to this graph, what is the median number of sit-ups for these 13 people?</p>
+  <numericalresponse answer="50">
+    <formulaequationinput label="In the graph above, each dot shows the number of sit-ups and the corresponding age for one of 13 people. According to this graph, what is the median number of sit-ups for these 13 people?"/>
+  </numericalresponse>
+</problem>

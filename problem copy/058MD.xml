@@ -1,0 +1,6 @@
+<problem display_name="Numerical Input" markdown="&gt;&gt;A fair coin is to be tossed three times. What is the probability that 2 heads and 1 tail in any order will come up?&lt;&lt;&#10;= 3/8&#10;" weight="0.0">
+  <p>A fair coin is to be tossed three times. What is the probability that 2 heads and 1 tail in any order will come up?</p>
+  <numericalresponse answer="3/8">
+    <formulaequationinput label="A fair coin is to be tossed three times. What is the probability that 2 heads and 1 tail in any order will come up?"/>
+  </numericalresponse>
+</problem>

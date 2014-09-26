@@ -1,0 +1,35 @@
+<problem display_name="Algebra" markdown="&lt;p&gt;The following chart indicates the maximum number of connecting line segments y that can be drawn connecting x points, where no three points lie on the same line. &lt;/p&gt;&#10;&#10;&lt;p&gt;&lt;img src=&quot;/static/1181.png&quot; /&gt;&lt;/p&gt;&#10;&gt;&gt;(a)&lt;&lt;&#10;&gt;&gt;The relationship between x and y is represented by the equation y=kx(x-1) for any positive number of points x . Use the information in the table to determine the value of the real number k (Answer in decimal form) &lt;&lt;&#10;= 0.5&#10;&gt;&gt;(b)&lt;&lt;&#10;&gt;&gt;Use the equation from part (a) to determine the maximum number of line segments that can be drawn connecting 100 points, no three of which lie on the same line.&lt;&lt;&#10;=4950&#10;&#10;" weight="0.0">
+<script type="text/python" system_path="python_lib">
+def hintfn1(answer_ids, student_answers, new_cmap, old_cmap):
+	global expect
+	aid = answer_ids[0]
+	ans = student_answers[aid]
+	if new_cmap.is_correct(aid):
+		hint='Your answer has been submitted'
+		new_cmap.set_hint_and_mode(aid,hint,'always')
+		new_cmap.set_property(aid,'npoints',1)
+		new_cmap.set_property(aid,'correctness','corrrectnr')
+	else:
+		hint='Your answer has been submitted'
+		new_cmap.set_hint_and_mode(aid,hint,'always')
+		new_cmap.set_property(aid,'npoints',1)
+		new_cmap.set_property(aid,'correctness','incorrectnr')
+	old_cmap=new_cmap
+</script>
+  <p>The following chart indicates the maximum number of connecting line segments y that can be drawn connecting x points, where no three points lie on the same line. </p>
+  <p>
+    <img src="/static/1181.png"/>
+  </p>
+  <p>(a)</p>
+  <p>The relationship between x and y is represented by the equation y=kx(x-1) for any positive number of points x . Use the information in the table to determine the value of the real number k (Answer in decimal form) </p>
+  <numericalresponse answer="0.5">
+    <formulaequationinput label="The relationship between x and y is represented by the equation y=kx(x-1) for any positive number of points x . Use the information in the table to determine the value of the real number k (Answer in decimal form) "/>
+		<hintgroup hintfn="hintfn1"/> 
+   </numericalresponse>
+  <p>(b)</p>
+  <p>Use the equation from part (a) to determine the maximum number of line segments that can be drawn connecting 100 points, no three of which lie on the same line.</p>
+  <numericalresponse answer="4950">
+    <formulaequationinput label="Use the equation from part (a) to determine the maximum number of line segments that can be drawn connecting 100 points, no three of which lie on the same line."/>
+		<hintgroup hintfn="hintfn1"/> 
+   </numericalresponse>
+</problem>

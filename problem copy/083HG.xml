@@ -1,0 +1,11 @@
+<problem display_name="Numerical Input" markdown="&lt;p&gt;&lt;center&gt;&lt;img src=&quot;/static/8183.gif&quot; /&gt;&lt;/center&gt;&lt;/p&gt;&#10;&lt;p&gt;In the figure above, &lt;i&gt;ABDG&lt;/i&gt; is a parallelogram and &lt;i&gt;CDEF&lt;/i&gt; is a rectangle. If&lt;i&gt; EF&lt;/i&gt; = 9 and&lt;i&gt; CG&lt;/i&gt; = 10, what is &lt;i&gt;AB&lt;/i&gt; to the nearest hundredth?&lt;/p&gt;&#10;= 13.45&#10;&#10;" weight="0.0">
+  <p>
+    <center>
+      <img src="/static/8183.gif"/>
+    </center>
+  </p>
+  <p>In the figure above, <i>ABDG</i> is a parallelogram and <i>CDEF</i> is a rectangle. If<i> EF</i> = 9 and<i> CG</i> = 10, what is <i>AB</i> to the nearest hundredth?</p>
+  <numericalresponse answer="13.45">
+    <formulaequationinput/>
+  </numericalresponse>
+</problem>

@@ -1,0 +1,24 @@
+<problem display_name="Algebra and functions" markdown="&lt;p&gt;cos&lt;sup&gt;2&lt;/sup&gt;(3 x) + sin&lt;sup&gt;2&lt;/sup&gt;(3 x) =&lt;/p&gt;&#10;= 1&#10;&#10;" weight="0.0">
+<script type="text/python" system_path="python_lib">
+def hintfn1(answer_ids, student_answers, new_cmap, old_cmap):
+	global expect
+	aid = answer_ids[0]
+	ans = student_answers[aid]
+	if new_cmap.is_correct(aid):
+		hint='Your answer has been submitted'
+		new_cmap.set_hint_and_mode(aid,hint,'always')
+		new_cmap.set_property(aid,'npoints',1)
+		new_cmap.set_property(aid,'correctness','corrrectnr')
+	else:
+		hint='Your answer has been submitted'
+		new_cmap.set_hint_and_mode(aid,hint,'always')
+		new_cmap.set_property(aid,'npoints',1)
+		new_cmap.set_property(aid,'correctness','incorrectnr')
+	old_cmap=new_cmap
+</script>
+  <p>cos<sup>2</sup>(3 x) + sin<sup>2</sup>(3 x) =</p>
+  <numericalresponse answer="1">
+    <formulaequationinput/>
+		<hintgroup hintfn="hintfn1"/> 
+   </numericalresponse>
+</problem>

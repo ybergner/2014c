@@ -1,0 +1,7 @@
+<problem display_name="Numerical Input" markdown="&lt;p&gt;Easy Ride Van Company finds that about 40 percent of the time a person who makes an advance reservation for transportation does not keep the reservation. Therefore, for each of their 10-passenger vans, the Easy Ride Van Company schedules 13 persons on the basis of advance reservations.&lt;/p&gt;&#10;&#10;&lt;p&gt;Based on the information above, about how many riders out of the 13 scheduled would &lt;u&gt;not&lt;/u&gt; keep their reservations?&lt;/p&gt;&#10;= 5&#10;" weight="0.0">
+  <p>Easy Ride Van Company finds that about 40 percent of the time a person who makes an advance reservation for transportation does not keep the reservation. Therefore, for each of their 10-passenger vans, the Easy Ride Van Company schedules 13 persons on the basis of advance reservations.</p>
+  <p>Based on the information above, about how many riders out of the 13 scheduled would <u>not</u> keep their reservations?</p>
+  <numericalresponse answer="5">
+    <formulaequationinput/>
+  </numericalresponse>
+</problem>

@@ -1,0 +1,17 @@
+<problem display_name="Numerical Input" markdown="null" weight="0.0">
+  <p>
+    <center>
+      <img src="/static/4057.gif"/>
+    </center>
+  </p>
+  <p>The sum of the measures of angles 1 and 2 in the figure above is 90°. What is the measure of the angle formed by the bisectors of these two angles?</p>
+  <p>
+    <p style="display:inline">  </p>
+    <numericalresponse inline="1" answer="45">
+      <textline inline="1">
+        <responseparam type="tolerance" default="0%"/>
+      </textline>
+    </numericalresponse>
+    <p style="display:inline">degrees</p>
+  </p>
+</problem>

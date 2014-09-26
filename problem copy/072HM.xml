@@ -1,0 +1,6 @@
+<problem display_name="Numerical Input" markdown="&lt;p&gt;Forwhat value of &lt;i&gt;x&lt;/i&gt; is 8&lt;sup&gt;12&lt;/sup&gt; = 16&lt;sup&gt;&lt;i&gt;x&lt;/i&gt;&lt;/sup&gt;?&lt;/p&gt;&#10;= 9&#10;&#10;&#10;&#10;" weight="0.0">
+  <p>Forwhat value of <i>x</i> is 8<sup>12</sup> = 16<sup><i>x</i></sup>?</p>
+  <numericalresponse answer="9">
+    <formulaequationinput/>
+  </numericalresponse>
+</problem>

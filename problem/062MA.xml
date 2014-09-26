@@ -1,0 +1,30 @@
+<problem display_name="Algebra" markdown="&lt;p&gt;What is the solution to the system of equations &lt;img src=&quot;/static/0662.png&quot; /&gt;?&lt;/p&gt;&#10;&#10;&gt;&gt;x =&lt;&lt; &#10;= 3&#10;&gt;&gt;y =&lt;&lt;&#10;= 8&#10;" weight="0.0">
+<script type="text/python" system_path="python_lib">
+def hintfn1(answer_ids, student_answers, new_cmap, old_cmap):
+	global expect
+	aid = answer_ids[0]
+	ans = student_answers[aid]
+	if new_cmap.is_correct(aid):
+		hint='Your answer has been submitted'
+		new_cmap.set_hint_and_mode(aid,hint,'always')
+		new_cmap.set_property(aid,'npoints',1)
+		new_cmap.set_property(aid,'correctness','corrrectnr')
+	else:
+		hint='Your answer has been submitted'
+		new_cmap.set_hint_and_mode(aid,hint,'always')
+		new_cmap.set_property(aid,'npoints',1)
+		new_cmap.set_property(aid,'correctness','incorrectnr')
+	old_cmap=new_cmap
+</script>
+  <p>What is the solution to the system of equations <img src="/static/0662.png"/>?</p>
+  <p>x = </p>
+  <numericalresponse answer="3">
+    <formulaequationinput label="x ="/>
+		<hintgroup hintfn="hintfn1"/> 
+   </numericalresponse>
+  <p>y =</p>
+  <numericalresponse answer="8">
+    <formulaequationinput label="y ="/>
+		<hintgroup hintfn="hintfn1"/> 
+   </numericalresponse>
+</problem>

@@ -1,0 +1,11 @@
+<problem display_name="Numerical Input" markdown="&lt;p&gt;&lt;center&gt;&lt;img src=&quot;/static/3539.JPG&quot; /&gt;&lt;/center&gt;&lt;/p&gt;&#10;&#10;&gt;&gt;The table above shows the scores of 10 students on a final examination. What is the range of these scores?&lt;&lt;&#10;= 55&#10;" weight="0.0">
+  <p>
+    <center>
+      <img src="/static/3539.JPG"/>
+    </center>
+  </p>
+  <p>The table above shows the scores of 10 students on a final examination. What is the range of these scores?</p>
+  <numericalresponse answer="55">
+    <formulaequationinput label="The table above shows the scores of 10 students on a final examination. What is the range of these scores?"/>
+  </numericalresponse>
+</problem>

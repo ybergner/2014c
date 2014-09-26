@@ -1,0 +1,12 @@
+<problem display_name="Numerical Input" markdown="&lt;p&gt;&lt;i&gt;The following question&lt;/i&gt; refers to the graph shown below.&lt;/p&gt;&#10;  &lt;p&gt;&lt;center&gt;&lt;img src=&quot;/static/7589.gif&quot; /&gt;&lt;/center&gt;&lt;/p&gt;&#10;&lt;p&gt;What is the value of &lt;i&gt;f&lt;/i&gt;( &lt;i&gt;g&lt;/i&gt;(1))?&lt;/p&gt;&#10;&#10;= 8&#10;" weight="0.0">
+  <p><i>The following question</i> refers to the graph shown below.</p>
+  <p>
+    <center>
+      <img src="/static/7589.gif"/>
+    </center>
+  </p>
+  <p>What is the value of <i>f</i>( <i>g</i>(1))?</p>
+  <numericalresponse answer="8">
+    <formulaequationinput/>
+  </numericalresponse>
+</problem>

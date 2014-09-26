@@ -1,0 +1,11 @@
+<problem display_name="Numerical Input" markdown="&lt;p&gt;&lt;center&gt;&lt;img src=&quot;/static/8768.gif&quot; /&gt;&lt;/center&gt;&lt;/p&gt;&#10;&#10;&gt;&gt;The graphs of y = f(x) and y = g(x) for 0 to 10 are shown in the figure above. For how many values of x is the product f (x) g( x) = 0 for 0 to 10?&lt;&lt;&#10;= 5&#10;&#10;" weight="0.0">
+  <p>
+    <center>
+      <img src="/static/8768.gif"/>
+    </center>
+  </p>
+  <p>The graphs of y = f(x) and y = g(x) for 0 to 10 are shown in the figure above. For how many values of x is the product f (x) g( x) = 0 for 0 to 10?</p>
+  <numericalresponse answer="5">
+    <formulaequationinput label="The graphs of y = f(x) and y = g(x) for 0 to 10 are shown in the figure above. For how many values of x is the product f (x) g( x) = 0 for 0 to 10?"/>
+  </numericalresponse>
+</problem>

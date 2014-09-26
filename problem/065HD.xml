@@ -1,0 +1,29 @@
+<problem display_name="Data analysis and probability" markdown="  &lt;p&gt;&lt;center&gt;&lt;img src=&quot;/static/1765.jpg&quot; /&gt;&lt;/center&gt;&lt;/p&gt;&#10;&#10;&gt;&gt;According to the box-and-whisker plot above, three-fourths of the cars made by Company X got fewer than how many miles per gallon?&lt;&lt;&#10;= 33&#10;&#10;&#10;&#10;" weight="0.0">
+<script type="text/python" system_path="python_lib">
+def hintfn1(answer_ids, student_answers, new_cmap, old_cmap):
+	global expect
+	aid = answer_ids[0]
+	ans = student_answers[aid]
+	if new_cmap.is_correct(aid):
+		hint='Your answer has been submitted'
+		new_cmap.set_hint_and_mode(aid,hint,'always')
+		new_cmap.set_property(aid,'npoints',1)
+		new_cmap.set_property(aid,'correctness','corrrectnr')
+	else:
+		hint='Your answer has been submitted'
+		new_cmap.set_hint_and_mode(aid,hint,'always')
+		new_cmap.set_property(aid,'npoints',1)
+		new_cmap.set_property(aid,'correctness','incorrectnr')
+	old_cmap=new_cmap
+</script>
+  <p>
+    <center>
+      <img src="/static/1765.jpg"/>
+    </center>
+  </p>
+  <p>According to the box-and-whisker plot above, three-fourths of the cars made by Company X got fewer than how many miles per gallon?</p>
+  <numericalresponse answer="33">
+    <formulaequationinput label="According to the box-and-whisker plot above, three-fourths of the cars made by Company X got fewer than how many miles per gallon?"/>
+		<hintgroup hintfn="hintfn1"/> 
+   </numericalresponse>
+</problem>

@@ -1,0 +1,12 @@
+<problem display_name="Numerical Input" markdown="null" weight="0.0">
+  <p>It takes 64 identical cubes to <u>half</u> fill a rectangular box. If each cube has a volume of 8 cubic centimeters, what is the volume of the box in cubic centimeters?</p>
+  <p>
+    <p style="display:inline">  </p>
+    <numericalresponse inline="1" answer="1024">
+      <textline inline="1">
+        <responseparam type="tolerance" default="0%"/>
+      </textline>
+    </numericalresponse>
+    <p style="display:inline">cubic centemeters</p>
+  </p>
+</problem>

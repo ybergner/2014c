@@ -1,0 +1,8 @@
+<problem display_name="Numerical Input" markdown="&lt;p&gt;&lt;img src=&quot;/static/5534.JPG&quot; /&gt;&lt;/p&gt;&#10;&#10;&gt;&gt;&lt;&lt;&#10;= 40&#10;&#10;" weight="0.0">
+  <p>
+    <img src="/static/5534.JPG"/>
+  </p>
+  <numericalresponse answer="40">
+    <formulaequationinput/>
+  </numericalresponse>
+</problem>

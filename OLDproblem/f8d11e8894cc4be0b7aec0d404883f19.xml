@@ -1,0 +1,6 @@
+<problem display_name="Numerical Input" markdown="&gt;&gt;What is the difference between the smallest positive 3-digit number and the largest positive 2-digit number?&lt;&lt;&#10;= 1" weight="0.0">
+  <p>What is the difference between the smallest positive 3-digit number and the largest positive 2-digit number?</p>
+  <numericalresponse answer="1">
+    <formulaequationinput label="What is the difference between the smallest positive 3-digit number and the largest positive 2-digit number?"/>
+  </numericalresponse>
+</problem>

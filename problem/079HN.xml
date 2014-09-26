@@ -1,0 +1,24 @@
+<problem display_name="Number sense, properties, and operations" markdown="&lt;p&gt;Suppose 4 &lt;i&gt;r&lt;/i&gt; = 3 &lt;i&gt;s&lt;/i&gt; = 10 &lt;i&gt;t&lt;/i&gt;, where &lt;i&gt;r, s&lt;/i&gt;, and &lt;i&gt;t&lt;/i&gt; are positive integers. What is the sum of the least values of &lt;i&gt;r, s,&lt;/i&gt; and &lt;i&gt;t&lt;/i&gt; for which this equality is true?&lt;/p&gt;&#10;= 41&#10;" weight="0.0">
+<script type="text/python" system_path="python_lib">
+def hintfn1(answer_ids, student_answers, new_cmap, old_cmap):
+	global expect
+	aid = answer_ids[0]
+	ans = student_answers[aid]
+	if new_cmap.is_correct(aid):
+		hint='Your answer has been submitted'
+		new_cmap.set_hint_and_mode(aid,hint,'always')
+		new_cmap.set_property(aid,'npoints',1)
+		new_cmap.set_property(aid,'correctness','corrrectnr')
+	else:
+		hint='Your answer has been submitted'
+		new_cmap.set_hint_and_mode(aid,hint,'always')
+		new_cmap.set_property(aid,'npoints',1)
+		new_cmap.set_property(aid,'correctness','incorrectnr')
+	old_cmap=new_cmap
+</script>
+  <p>Suppose 4 <i>r</i> = 3 <i>s</i> = 10 <i>t</i>, where <i>r, s</i>, and <i>t</i> are positive integers. What is the sum of the least values of <i>r, s,</i> and <i>t</i> for which this equality is true?</p>
+  <numericalresponse answer="41">
+    <formulaequationinput/>
+		<hintgroup hintfn="hintfn1"/> 
+   </numericalresponse>
+</problem>

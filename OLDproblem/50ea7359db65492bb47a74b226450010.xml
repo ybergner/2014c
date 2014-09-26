@@ -1,0 +1,6 @@
+<problem display_name="Numerical Input" markdown="&gt;&gt;The population of the United States is approximately 250 million, and the national debt is approximately 4 trillion dollars. If this debt were divided equally among the population, what would be the debt, in dollars, per person?&lt;&lt;&#10;= 16000&#10;" weight="0.0">
+  <p>The population of the United States is approximately 250 million, and the national debt is approximately 4 trillion dollars. If this debt were divided equally among the population, what would be the debt, in dollars, per person?</p>
+  <numericalresponse answer="16000">
+    <formulaequationinput label="The population of the United States is approximately 250 million, and the national debt is approximately 4 trillion dollars. If this debt were divided equally among the population, what would be the debt, in dollars, per person?"/>
+  </numericalresponse>
+</problem>

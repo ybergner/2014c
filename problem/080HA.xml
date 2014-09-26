@@ -1,0 +1,24 @@
+<problem display_name="Algebra and functions" markdown="&lt;p&gt;3&lt;sup&gt; 3&lt;/sup&gt; + 4(8-5) ÷ 6 =&lt;/p&gt;&#10;= 29&#10;" weight="0.0">
+<script type="text/python" system_path="python_lib">
+def hintfn1(answer_ids, student_answers, new_cmap, old_cmap):
+	global expect
+	aid = answer_ids[0]
+	ans = student_answers[aid]
+	if new_cmap.is_correct(aid):
+		hint='Your answer has been submitted'
+		new_cmap.set_hint_and_mode(aid,hint,'always')
+		new_cmap.set_property(aid,'npoints',1)
+		new_cmap.set_property(aid,'correctness','corrrectnr')
+	else:
+		hint='Your answer has been submitted'
+		new_cmap.set_hint_and_mode(aid,hint,'always')
+		new_cmap.set_property(aid,'npoints',1)
+		new_cmap.set_property(aid,'correctness','incorrectnr')
+	old_cmap=new_cmap
+</script>
+  <p>3<sup> 3</sup> + 4(8-5) ÷ 6 =</p>
+  <numericalresponse answer="29">
+    <formulaequationinput/>
+		<hintgroup hintfn="hintfn1"/> 
+   </numericalresponse>
+</problem>

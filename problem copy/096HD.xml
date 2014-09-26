@@ -1,0 +1,12 @@
+<problem display_name="Numerical Input" markdown="&lt;p&gt;&lt;center&gt;&lt;img src=&quot;/static/5996.gif&quot; /&gt;&lt;/center&gt;&lt;/p&gt;&#10;&lt;p&gt;The pulse rate for a group of 100 people is shown in the graph above. What is the average pulse rate per minute for these 100 people? &#10;( &lt;u&gt;Note&lt;/u&gt;: Use the midpoint of each interval to represent the pulse rate for the entire interval. For example, 55 would be used for the pulse rate of the 15 people in the 50-60 group.)&lt;/p&gt;&#10;&#10;&#10;= 71&#10;&#10;" weight="0.0">
+  <p>
+    <center>
+      <img src="/static/5996.gif"/>
+    </center>
+  </p>
+  <p>The pulse rate for a group of 100 people is shown in the graph above. What is the average pulse rate per minute for these 100 people? 
+<p>( <u>Note</u>: Use the midpoint of each interval to represent the pulse rate for the entire interval. For example, 55 would be used for the pulse rate of the 15 people in the 50-60 group.)</p></p>
+  <numericalresponse answer="71">
+    <formulaequationinput/>
+  </numericalresponse>
+</problem>

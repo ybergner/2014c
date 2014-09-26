@@ -1,0 +1,16 @@
+<problem display_name="Numerical Input" markdown="null" weight="0.0">
+  <p>
+    <center>
+      <img src="/static/5701.gif"/>
+    </center>
+  </p>
+  <p>
+    <p style="display:inline"> In the figure above, the tube was filled to the 0 mark at the start. How much liquid has been let out?  </p>
+    <numericalresponse inline="1" answer="15">
+      <textline inline="1">
+        <responseparam type="tolerance" default="1"/>
+      </textline>
+    </numericalresponse>
+    <p style="display:inline">milliliters</p>
+  </p>
+</problem>

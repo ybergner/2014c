@@ -1,0 +1,12 @@
+<problem display_name="Numerical Input" markdown="null" weight="0.0">
+  <p>The town of Mayville taxes property at a rate of $42 for each $1,000 of estimated value. What is the estimated value of a property on which the owner owes $5,250 in property tax?</p>
+  <p>
+    <p style="display:inline">  </p>
+    <numericalresponse inline="1" answer="125000">
+      <textline inline="1">
+        <responseparam type="tolerance" default="0%"/>
+      </textline>
+    </numericalresponse>
+    <p style="display:inline">dollars</p>
+  </p>
+</problem>

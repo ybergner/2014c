@@ -1,0 +1,6 @@
+<problem display_name="Numerical Input" markdown="&lt;p&gt;cos&lt;sup&gt;2&lt;/sup&gt;(3 x) + sin&lt;sup&gt;2&lt;/sup&gt;(3 x) =&lt;/p&gt;&#10;= 1&#10;&#10;" weight="0.0">
+  <p>cos<sup>2</sup>(3 x) + sin<sup>2</sup>(3 x) =</p>
+  <numericalresponse answer="1">
+    <formulaequationinput/>
+  </numericalresponse>
+</problem>

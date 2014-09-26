@@ -1,0 +1,6 @@
+<problem display_name="Numerical Input" markdown="&gt;&gt;Rulers cost $0.85 each, including tax. How many rulers can Tom buy if he has $7.00?&lt;&lt;&#10;= 8&#10;&#10;" weight="0.0">
+  <p>Rulers cost $0.85 each, including tax. How many rulers can Tom buy if he has $7.00?</p>
+  <numericalresponse answer="8">
+    <formulaequationinput label="Rulers cost $0.85 each, including tax. How many rulers can Tom buy if he has $7.00?"/>
+  </numericalresponse>
+</problem>

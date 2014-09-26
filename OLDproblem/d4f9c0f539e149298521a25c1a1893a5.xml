@@ -1,0 +1,11 @@
+<problem display_name="Numerical Input" markdown="&lt;p&gt;&lt;center&gt;&lt;img src=&quot;/static/1876.gif&quot; /&gt;&lt;/center&gt;&lt;/p&gt;&#10;&lt;p&gt;The graphs of the two equations shown above intersect at the point ( &lt;i&gt;x&lt;/i&gt;, &lt;i&gt;y&lt;/i&gt;) What is the value of x at the point of intersection?&lt;/p&gt;&#10;= 10&#10;" weight="0.0">
+  <p>
+    <center>
+      <img src="/static/1876.gif"/>
+    </center>
+  </p>
+  <p>The graphs of the two equations shown above intersect at the point ( <i>x</i>, <i>y</i>) What is the value of x at the point of intersection?</p>
+  <numericalresponse answer="10">
+    <formulaequationinput/>
+  </numericalresponse>
+</problem>

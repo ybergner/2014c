@@ -1,0 +1,11 @@
+<problem display_name="Numerical Input" markdown="&lt;p&gt;&lt;center&gt;&lt;img src=&quot;/static/6171.gif&quot; /&gt;&lt;/center&gt;&lt;/p&gt;&#10;&#10;&gt;&gt;The entire circle shown above represents a total of 2,675 radios sold. What is the best approximation of the number of radios represented by the shaded sector of the circle?&lt;&lt;&#10;= 275&#10;" weight="0.0">
+  <p>
+    <center>
+      <img src="/static/6171.gif"/>
+    </center>
+  </p>
+  <p>The entire circle shown above represents a total of 2,675 radios sold. What is the best approximation of the number of radios represented by the shaded sector of the circle?</p>
+  <numericalresponse answer="275">
+    <formulaequationinput label="The entire circle shown above represents a total of 2,675 radios sold. What is the best approximation of the number of radios represented by the shaded sector of the circle?"/>
+  </numericalresponse>
+</problem>

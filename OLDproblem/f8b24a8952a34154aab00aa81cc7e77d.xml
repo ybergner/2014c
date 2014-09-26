@@ -1,0 +1,6 @@
+<problem display_name="Numerical Input" markdown="&gt;&gt;How many hours are equal to 150 minutes?&lt;&lt;&#10;= 2.5&#10;" weight="0.0">
+  <p>How many hours are equal to 150 minutes?</p>
+  <numericalresponse answer="2.5">
+    <formulaequationinput label="How many hours are equal to 150 minutes?"/>
+  </numericalresponse>
+</problem>

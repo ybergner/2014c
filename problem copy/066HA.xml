@@ -1,0 +1,6 @@
+<problem display_name="Numerical Input" markdown="&lt;p&gt;If &lt;i&gt;f(x)&lt;/i&gt; = 4 x&lt;sup&gt;2&lt;/sup&gt; - 7 x + 5.7, what is the value of &lt;i&gt;f&lt;/i&gt;(3.5)?&lt;/p&gt;&#10;&#10;= 30.2 &#10;" weight="0.0">
+  <p>If <i>f(x)</i> = 4 x<sup>2</sup> - 7 x + 5.7, what is the value of <i>f</i>(3.5)?</p>
+  <numericalresponse answer="30.2">
+    <formulaequationinput/>
+  </numericalresponse>
+</problem>

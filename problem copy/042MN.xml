@@ -1,0 +1,6 @@
+<problem display_name="Numerical Input" markdown="&gt;&gt;If the digit in the tens place of 37,241 is increased by one and the digit in the thousands place is decreased by one, how has the number been changed?&lt;&lt;&#10;= 990&#10;" weight="0.0">
+  <p>If the digit in the tens place of 37,241 is increased by one and the digit in the thousands place is decreased by one, how has the number been changed?</p>
+  <numericalresponse answer="990">
+    <formulaequationinput label="If the digit in the tens place of 37,241 is increased by one and the digit in the thousands place is decreased by one, how has the number been changed?"/>
+  </numericalresponse>
+</problem>

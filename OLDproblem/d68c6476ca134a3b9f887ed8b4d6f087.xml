@@ -1,0 +1,12 @@
+<problem display_name="Numerical Input" markdown="null" weight="0.0">
+  <p> Pencils sell individually for $0.07 each or in packs of 12 for $0.79 per pack. How much is saved when 24 pencils are purchased by the pack instead of individually?</p>
+  <p>
+    <p style="display:inline">  </p>
+    <numericalresponse inline="1" answer="5">
+      <textline inline="1">
+        <responseparam type="tolerance" default="0%"/>
+      </textline>
+    </numericalresponse>
+    <p style="display:inline">cents</p>
+  </p>
+</problem>

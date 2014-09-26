@@ -1,0 +1,17 @@
+<problem display_name="Numerical Input" markdown="null" weight="0.0">
+  <p>
+    <center>
+      <img src="/static/1010.jpg"/>
+    </center>
+  </p>
+  <p>In the triangle shown above, what is the measure of angle B?</p>
+  <p>
+    <p style="display:inline">  </p>
+    <numericalresponse inline="1" answer="50">
+      <textline inline="1">
+        <responseparam type="tolerance" default="0%"/>
+      </textline>
+    </numericalresponse>
+    <p style="display:inline">degrees</p>
+  </p>
+</problem>

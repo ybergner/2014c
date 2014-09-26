@@ -1,0 +1,6 @@
+<problem display_name="Numerical Input" markdown="&lt;p&gt;The number of bacteria present in a laboratory sample after &lt;i&gt;t&lt;/i&gt; days can be represented by 500(2&lt;sup&gt;&lt;i&gt;t&lt;/i&gt;&lt;/sup&gt;). What is the initial number of bacteria present in this sample?&lt;/p&gt;&#10;= 500&#10;" weight="0.0">
+  <p>The number of bacteria present in a laboratory sample after <i>t</i> days can be represented by 500(2<sup><i>t</i></sup>). What is the initial number of bacteria present in this sample?</p>
+  <numericalresponse answer="500">
+    <formulaequationinput/>
+  </numericalresponse>
+</problem>

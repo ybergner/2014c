@@ -1,0 +1,11 @@
+<problem display_name="Numerical Input" markdown="&lt;p&gt;&lt;center&gt;&lt;img src=&quot;/static/6291.gif&quot; /&gt;&lt;/center&gt;&lt;/p&gt;&#10;&lt;p&gt;In the equation above, what is the value of &lt;i&gt;N&lt;/i&gt;, rounded to the nearest tenth?&lt;/p&gt;&#10;= 85.9&#10;" weight="0.0">
+  <p>
+    <center>
+      <img src="/static/6291.gif"/>
+    </center>
+  </p>
+  <p>In the equation above, what is the value of <i>N</i>, rounded to the nearest tenth?</p>
+  <numericalresponse answer="85.9">
+    <formulaequationinput/>
+  </numericalresponse>
+</problem>

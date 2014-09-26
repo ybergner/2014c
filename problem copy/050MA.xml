@@ -1,0 +1,11 @@
+<problem display_name="Numerical Input" markdown="&lt;p&gt;&lt;center&gt;&lt;img src=&quot;/static/2050.gif&quot; /&gt;&lt;/center&gt;&lt;/p&gt;&#10;&#10;&gt;&gt;In the solution of the system of equations above, what is the value of x ?&lt;&lt;&#10;= 3&#10;&#10;" weight="0.0">
+  <p>
+    <center>
+      <img src="/static/2050.gif"/>
+    </center>
+  </p>
+  <p>In the solution of the system of equations above, what is the value of x ?</p>
+  <numericalresponse answer="3">
+    <formulaequationinput label="In the solution of the system of equations above, what is the value of x ?"/>
+  </numericalresponse>
+</problem>

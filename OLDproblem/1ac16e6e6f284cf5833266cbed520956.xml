@@ -1,0 +1,10 @@
+<problem display_name="Numerical Input" markdown="&lt;p&gt;&lt;i&gt;The following question&lt;/i&gt; refers to the following pattern of dot-figures.&lt;/p&gt;&#10;&lt;p&gt;&lt;img src=&quot;/static/4748.gif&quot; /&gt;&lt;/p&gt;&#10;&#10;&gt;&gt;If this pattern of dot-figures is continued, how many dots will be in the 100th figure?&lt;&lt;&#10;= 201&#10;" weight="0.0">
+  <p><i>The following question</i> refers to the following pattern of dot-figures.</p>
+  <p>
+    <img src="/static/4748.gif"/>
+  </p>
+  <p>If this pattern of dot-figures is continued, how many dots will be in the 100th figure?</p>
+  <numericalresponse answer="201">
+    <formulaequationinput label="If this pattern of dot-figures is continued, how many dots will be in the 100th figure?"/>
+  </numericalresponse>
+</problem>

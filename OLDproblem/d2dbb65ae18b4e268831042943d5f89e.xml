@@ -1,0 +1,7 @@
+<problem display_name="Numerical Input" markdown="&lt;p&gt;The remainder when a number n is divided by 7 is 2. What is &#10;the remainder when 2 &lt;i&gt;n&lt;/i&gt; + 1 is divided by 7 ?&lt;/p&gt;&#10;&#10;&#10;= 5&#10;" weight="0.0">
+  <p>The remainder when a number n is divided by 7 is 2. What is 
+<p>the remainder when 2 <i>n</i> + 1 is divided by 7 ?</p></p>
+  <numericalresponse answer="5">
+    <formulaequationinput/>
+  </numericalresponse>
+</problem>

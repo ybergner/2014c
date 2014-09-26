@@ -1,0 +1,24 @@
+<problem display_name="Algebra" markdown="&lt;p&gt;The number of bacteria present in a laboratory sample after &lt;i&gt;t&lt;/i&gt; days can be represented by 500(2&lt;sup&gt;&lt;i&gt;t&lt;/i&gt;&lt;/sup&gt;). What is the initial number of bacteria present in this sample?&lt;/p&gt;&#10;= 500&#10;" weight="0.0">
+<script type="text/python" system_path="python_lib">
+def hintfn1(answer_ids, student_answers, new_cmap, old_cmap):
+	global expect
+	aid = answer_ids[0]
+	ans = student_answers[aid]
+	if new_cmap.is_correct(aid):
+		hint='Your answer has been submitted'
+		new_cmap.set_hint_and_mode(aid,hint,'always')
+		new_cmap.set_property(aid,'npoints',1)
+		new_cmap.set_property(aid,'correctness','corrrectnr')
+	else:
+		hint='Your answer has been submitted'
+		new_cmap.set_hint_and_mode(aid,hint,'always')
+		new_cmap.set_property(aid,'npoints',1)
+		new_cmap.set_property(aid,'correctness','incorrectnr')
+	old_cmap=new_cmap
+</script>
+  <p>The number of bacteria present in a laboratory sample after <i>t</i> days can be represented by 500(2<sup><i>t</i></sup>). What is the initial number of bacteria present in this sample?</p>
+  <numericalresponse answer="500">
+    <formulaequationinput/>
+		<hintgroup hintfn="hintfn1"/> 
+   </numericalresponse>
+</problem>

@@ -1,0 +1,17 @@
+<problem display_name="Numerical Input" markdown="null" weight="0.0">
+  <p>
+    <center>
+      <img src="/static/2815.gif"/>
+    </center>
+  </p>
+  <p> According to the graph above, the temperature at 10 a.m. is approximately how many degrees greater than the temperature at 8 a.m.?</p>
+  <p>
+    <p style="display:inline">  </p>
+    <numericalresponse inline="1" answer="3">
+      <textline inline="1">
+        <responseparam type="tolerance" default="0%"/>
+      </textline>
+    </numericalresponse>
+    <p style="display:inline">degrees</p>
+  </p>
+</problem>

@@ -1,0 +1,6 @@
+<problem display_name="Numerical Input" markdown="&gt;&gt;What is the least whole number x for which 2 x &gt; 11 ?&lt;&lt;&#10;= 6&#10;" weight="0.0">
+  <p>What is the least whole number x for which 2 x &gt; 11 ?</p>
+  <numericalresponse answer="6">
+    <formulaequationinput label="What is the least whole number x for which 2 x &gt; 11 ?"/>
+  </numericalresponse>
+</problem>

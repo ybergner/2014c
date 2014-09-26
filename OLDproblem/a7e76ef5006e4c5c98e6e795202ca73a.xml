@@ -1,0 +1,11 @@
+<problem display_name="Numerical Input" markdown="&lt;p&gt;What is the solution to the system of equations &lt;img src=&quot;/static/0662.png&quot; /&gt;?&lt;/p&gt;&#10;&#10;&gt;&gt;x =&lt;&lt; &#10;= 3&#10;&gt;&gt;y =&lt;&lt;&#10;= 8&#10;" weight="0.0">
+  <p>What is the solution to the system of equations <img src="/static/0662.png"/>?</p>
+  <p>x = </p>
+  <numericalresponse answer="3">
+    <formulaequationinput label="x ="/>
+  </numericalresponse>
+  <p>y =</p>
+  <numericalresponse answer="8">
+    <formulaequationinput label="y ="/>
+  </numericalresponse>
+</problem>

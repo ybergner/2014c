@@ -1,0 +1,6 @@
+<problem display_name="Numerical Input" markdown="&gt;&gt;A particular flu vaccine is effective for 90 percent of the patients who receive it. What is the probability that it will be effective for both of the next two randomly selected patients?&lt;&lt;&#10;= 0.81&#10;" weight="0.0">
+  <p>A particular flu vaccine is effective for 90 percent of the patients who receive it. What is the probability that it will be effective for both of the next two randomly selected patients?</p>
+  <numericalresponse answer="0.81">
+    <formulaequationinput label="A particular flu vaccine is effective for 90 percent of the patients who receive it. What is the probability that it will be effective for both of the next two randomly selected patients?"/>
+  </numericalresponse>
+</problem>

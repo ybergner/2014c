@@ -1,0 +1,6 @@
+<sequential display_name="Survey and Completion Code">
+    <problem url_name="NewSurvey"/>
+    <conditional display_name="Completion Code" message="{link} must be completed before this will become visible." sources="i4x://ICA/CA1/problem/NewSurvey" attempted="True">
+      <problem url_name="CompletionCode"/>
+    </conditional>
+</sequential>

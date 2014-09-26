@@ -1,0 +1,11 @@
+<problem display_name="Numerical Input" markdown="&lt;p&gt;&lt;center&gt;&lt;img src=&quot;/static/6400.gif&quot; /&gt;&lt;/center&gt;&lt;/p&gt;&#10;&lt;p&gt;The base of the pyramid shown above is a regular hexagon with side of length 12. If point &lt;i&gt;O&lt;/i&gt; is the center of the base and the length of &lt;i&gt;OB&lt;/i&gt; is 15, what is the degree measure of angle &lt;i&gt;OAB&lt;/i&gt; to the nearest whole number?&lt;/p&gt;&#10;&#10;= 51 &#10;" weight="0.0">
+  <p>
+    <center>
+      <img src="/static/6400.gif"/>
+    </center>
+  </p>
+  <p>The base of the pyramid shown above is a regular hexagon with side of length 12. If point <i>O</i> is the center of the base and the length of <i>OB</i> is 15, what is the degree measure of angle <i>OAB</i> to the nearest whole number?</p>
+  <numericalresponse answer="51">
+    <formulaequationinput/>
+  </numericalresponse>
+</problem>

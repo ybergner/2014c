@@ -1,0 +1,12 @@
+<problem display_name="Numerical Input" markdown="&lt;p&gt;&lt;center&gt;&lt;img src=&quot;/static/8484.gif&quot; /&gt;&lt;/center&gt;&lt;/p&gt;&#10;&gt;&gt;Semicircles are constructed on the sides of an equilateral triangle, as shown in the figure above. Of the following, which best approximates the sum of the lengths of the three darkened arcs?&lt;&lt;&#10;= 4.7124 +- .001&#10;" weight="0.0">
+  <p>
+    <center>
+      <img src="/static/8484.gif"/>
+    </center>
+  </p>
+  <p>Semicircles are constructed on the sides of an equilateral triangle, as shown in the figure above. Of the following, which best approximates the sum of the lengths of the three darkened arcs?</p>
+  <numericalresponse answer="4.7124">
+    <responseparam type="tolerance" default=".001"/>
+    <formulaequationinput label="Semicircles are constructed on the sides of an equilateral triangle, as shown in the figure above. Of the following, which best approximates the sum of the lengths of the three darkened arcs?"/>
+  </numericalresponse>
+</problem>

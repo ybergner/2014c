@@ -1,0 +1,6 @@
+<problem display_name="Numerical Input" markdown="&gt;&gt;What percent of 175 is 7?&lt;&lt;&#10;= 4&#10;&#10;" weight="0.0">
+  <p>What percent of 175 is 7?</p>
+  <numericalresponse answer="4">
+    <formulaequationinput label="What percent of 175 is 7?"/>
+  </numericalresponse>
+</problem>

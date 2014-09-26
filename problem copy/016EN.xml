@@ -1,0 +1,9 @@
+<problem display_name="Numerical Input" markdown="&lt;p&gt;&lt;center&gt;42,51,49,58,56,...&lt;/center&gt;&lt;/p&gt;&#10;&gt;&gt;If the pattern in the list above continues, what will be the next number after 56?&lt;&lt;&#10;&#10;=65" weight="0.0">
+  <p>
+    <center>42,51,49,58,56,...</center>
+  </p>
+  <p>If the pattern in the list above continues, what will be the next number after 56?</p>
+  <numericalresponse answer="65">
+    <formulaequationinput label="If the pattern in the list above continues, what will be the next number after 56?"/>
+  </numericalresponse>
+</problem>

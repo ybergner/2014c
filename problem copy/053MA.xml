@@ -1,0 +1,11 @@
+<problem display_name="Numerical Input" markdown="&lt;p&gt;&lt;center&gt;&lt;img src=&quot;/static/4953.gif&quot; /&gt;&lt;/center&gt;&lt;/p&gt;&#10;&#10;&lt;p&gt;What is the value of &lt;i&gt;g&lt;/i&gt;(1)?&lt;/p&gt;&#10;= 4&#10;" weight="0.0">
+  <p>
+    <center>
+      <img src="/static/4953.gif"/>
+    </center>
+  </p>
+  <p>What is the value of <i>g</i>(1)?</p>
+  <numericalresponse answer="4">
+    <formulaequationinput/>
+  </numericalresponse>
+</problem>

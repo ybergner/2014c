@@ -1,0 +1,17 @@
+<problem display_name="Numerical Input" markdown="null" weight="0.0">
+  <p>
+    <center>
+      <img src="/static/3102.gif"/>
+    </center>
+  </p>
+  <p> If the string does not cost anything, how much does the necklace above cost? </p>
+  <p>
+    <p style="display:inline">  </p>
+    <numericalresponse inline="1" answer="34">
+      <textline inline="1">
+        <responseparam type="tolerance" default="0%"/>
+      </textline>
+    </numericalresponse>
+    <p style="display:inline">cents</p>
+  </p>
+</problem>

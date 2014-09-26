@@ -1,0 +1,6 @@
+<problem display_name="Numerical Input" markdown="&gt;&gt;In a certain restaurant a whole pie has been sliced into 8 equal wedges. Only 2 slices of the pie remain. Three people would each like an equal portion from the remaining slices of pie. What fraction of the original pie should each person receive?&lt;&lt;&#10;= 1/12&#10;&#10;" weight="0.0">
+  <p>In a certain restaurant a whole pie has been sliced into 8 equal wedges. Only 2 slices of the pie remain. Three people would each like an equal portion from the remaining slices of pie. What fraction of the original pie should each person receive?</p>
+  <numericalresponse answer="1/12">
+    <formulaequationinput label="In a certain restaurant a whole pie has been sliced into 8 equal wedges. Only 2 slices of the pie remain. Three people would each like an equal portion from the remaining slices of pie. What fraction of the original pie should each person receive?"/>
+  </numericalresponse>
+</problem>

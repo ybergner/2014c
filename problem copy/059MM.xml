@@ -1,0 +1,12 @@
+<problem display_name="Numerical Input" markdown="null" weight="0.0">
+  <p>A cereal company packs its oatmeal into cylindrical containers. The height of each container is 10 inches and the radius of the bottom is 3 inches. What is the volume of the box to the nearest cubic inch? (The formula for the volume of a cylinder is <img src="/static/vf59.JPG"/>)</p>
+  <p>
+    <p style="display:inline">  </p>
+    <numericalresponse inline="1" answer="283">
+      <textline inline="1">
+        <responseparam type="tolerance" default="0%"/>
+      </textline>
+    </numericalresponse>
+    <p style="display:inline">cubic inches</p>
+  </p>
+</problem>

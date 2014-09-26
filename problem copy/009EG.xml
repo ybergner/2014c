@@ -1,0 +1,12 @@
+<problem display_name="Numerical Input" markdown="null" weight="0.0">
+  <p>If the diameter of a circle is 30 centimeters, what is the radius of the circle?</p>
+  <p>
+    <p style="display:inline">  </p>
+    <numericalresponse inline="1" answer="15">
+      <textline inline="1">
+        <responseparam type="tolerance" default="0%"/>
+      </textline>
+    </numericalresponse>
+    <p style="display:inline">centemeters</p>
+  </p>
+</problem>

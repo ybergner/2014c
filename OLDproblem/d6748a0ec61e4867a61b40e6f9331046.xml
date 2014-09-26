@@ -1,0 +1,16 @@
+<problem display_name="Numerical Input" markdown="null" weight="0.0">
+  <p>
+    <center>
+      <img src="/static/3403.gif"/>
+    </center>
+  </p>
+  <p>
+    <p style="display:inline"> In the figure above, the measure of angle <i>ABC</i> is </p>
+    <numericalresponse inline="1" answer="55">
+      <textline inline="1">
+        <responseparam type="tolerance" default="1"/>
+      </textline>
+    </numericalresponse>
+    <p style="display:inline">degrees</p>
+  </p>
+</problem>

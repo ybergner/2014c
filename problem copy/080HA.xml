@@ -1,0 +1,6 @@
+<problem display_name="Numerical Input" markdown="&lt;p&gt;3&lt;sup&gt; 3&lt;/sup&gt; + 4(8-5) ÷ 6 =&lt;/p&gt;&#10;= 29&#10;" weight="0.0">
+  <p>3<sup> 3</sup> + 4(8-5) ÷ 6 =</p>
+  <numericalresponse answer="29">
+    <formulaequationinput/>
+  </numericalresponse>
+</problem>

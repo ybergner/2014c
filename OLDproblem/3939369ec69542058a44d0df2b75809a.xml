@@ -1,0 +1,15 @@
+<problem display_name="Completion code" markdown="null" rerandomize="per_student" weight="0.0">
+  <text>
+    <script type="loncapa/python">
+x1 = random.randint(10000, 99999)
+
+</script>
+    <p>Your completion code is: \($x1\) </p>
+    <conditional sources="i4x://ICA/CA1/vertical/80b99f342dc04158a8ef730ca0cf1c84" attempted="True">
+      <html display_name="HTML for attempted problem">You see this, cause item is attempted.</html>
+    </conditional>
+    <conditional sources="i4x://ICA/CA1/vertical/80b99f342dc04158a8ef730ca0cf1c84" attempted="False">
+      <html display_name="HTML for not attempted problem">You see this because item is not attempted.</html>
+    </conditional>
+  </text>
+</problem>

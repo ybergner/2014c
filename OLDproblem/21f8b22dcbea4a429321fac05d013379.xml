@@ -1,0 +1,18 @@
+<problem display_name="Numerical Input" markdown="null" weight="0.0">
+  <p>
+    <center>
+      <img src="/static/1308.jpg"/>
+    </center>
+  </p>
+  <p>The diagram is part of a scale drawing of a house.</p>
+  <p>What is the length, in feet, of the side whose dimension is not given in the diagram?</p>
+  <p>
+    <p style="display:inline">  </p>
+    <numericalresponse inline="1" answer="36">
+      <textline inline="1">
+        <responseparam type="tolerance" default="0%"/>
+      </textline>
+    </numericalresponse>
+    <p style="display:inline">feet</p>
+  </p>
+</problem>

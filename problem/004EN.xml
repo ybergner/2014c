@@ -1,0 +1,32 @@
+<problem display_name="Number sense, properties, and operations" markdown="&lt;problem&gt;&#10;&#10;  &lt;p&gt; Debbie runs 0.6 of a mile every day. How many miles will Debbie run in 45 days? &lt;/p&gt; &#10;&#10;&lt;p&gt;&#10;  &lt;p style=&quot;display:inline&quot;&gt;  &lt;/p&gt; &#10;  &#9;&lt;numericalresponse inline=&quot;1&quot; answer=&quot;27&quot;&gt;&#10;  &#9;&#9;&lt;textline inline=&quot;1&quot;&gt;&#10;  &#9;&#9;   &#9;&lt;responseparam type=&quot;tolerance&quot; default=&quot;0%&quot;/&gt;&#10;    &#9;&lt;/textline&gt;&#10;&#9;&lt;/numericalresponse&gt;&#10;  &lt;p style=&quot;display:inline&quot;&gt;miles&lt;/p&gt;&#10;&lt;/p&gt;&#10;      &#10;  &#10;  &#10;&#10;&lt;/problem&gt;&#10;" weight="0.0">
+<script type="text/python" system_path="python_lib">
+def hintfn1(answer_ids, student_answers, new_cmap, old_cmap):
+	global expect
+	aid = answer_ids[0]
+	ans = student_answers[aid]
+	if new_cmap.is_correct(aid):
+		hint='Your answer has been submitted'
+		new_cmap.set_hint_and_mode(aid,hint,'always')
+		new_cmap.set_property(aid,'npoints',1)
+		new_cmap.set_property(aid,'correctness','corrrectnr')
+	else:
+		hint='Your answer has been submitted'
+		new_cmap.set_hint_and_mode(aid,hint,'always')
+		new_cmap.set_property(aid,'npoints',1)
+		new_cmap.set_property(aid,'correctness','incorrectnr')
+	old_cmap=new_cmap
+</script>
+  <problem>
+    <p> Debbie runs 0.6 of a mile every day. How many miles will Debbie run in 45 days? </p>
+    <p>
+      <p style="display:inline">  </p>
+      <numericalresponse inline="1" answer="27">
+        <textline inline="1">
+          <responseparam type="tolerance" default="0%"/>
+        </textline>
+		<hintgroup hintfn="hintfn1"/> 
+       </numericalresponse>
+      <p style="display:inline">miles</p>
+    </p>
+  </problem>
+</problem>

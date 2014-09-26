@@ -1,0 +1,6 @@
+<problem display_name="Numerical Input" markdown="&gt;&gt;In a school fund-raiser, 10 students in class A sold an average (arithmetic mean) of 4 boxes of cookies. In class B, 15 students sold an average of 9 boxes. What was the average number of boxes of cookies sold by the 25 students?&lt;&lt;&#10;= 7&#10;&#10;" weight="0.0">
+  <p>In a school fund-raiser, 10 students in class A sold an average (arithmetic mean) of 4 boxes of cookies. In class B, 15 students sold an average of 9 boxes. What was the average number of boxes of cookies sold by the 25 students?</p>
+  <numericalresponse answer="7">
+    <formulaequationinput label="In a school fund-raiser, 10 students in class A sold an average (arithmetic mean) of 4 boxes of cookies. In class B, 15 students sold an average of 9 boxes. What was the average number of boxes of cookies sold by the 25 students?"/>
+  </numericalresponse>
+</problem>

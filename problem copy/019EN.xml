@@ -1,0 +1,6 @@
+<problem display_name="Numerical Input" markdown="&lt;p&gt;What is 2/3 of 15 marbles?&lt;/p&gt;&#10;= 10&#10;&#10;" weight="0.0">
+  <p>What is 2/3 of 15 marbles?</p>
+  <numericalresponse answer="10">
+    <formulaequationinput/>
+  </numericalresponse>
+</problem>

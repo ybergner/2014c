@@ -1,0 +1,14 @@
+<problem display_name="Numerical Input" markdown="&lt;problem&gt;&#10;&#10;  &lt;p&gt; Debbie runs 0.6 of a mile every day. How many miles will Debbie run in 45 days? &lt;/p&gt; &#10;&#10;&lt;p&gt;&#10;  &lt;p style=&quot;display:inline&quot;&gt;  &lt;/p&gt; &#10;  &#9;&lt;numericalresponse inline=&quot;1&quot; answer=&quot;27&quot;&gt;&#10;  &#9;&#9;&lt;textline inline=&quot;1&quot;&gt;&#10;  &#9;&#9;   &#9;&lt;responseparam type=&quot;tolerance&quot; default=&quot;0%&quot;/&gt;&#10;    &#9;&lt;/textline&gt;&#10;&#9;&lt;/numericalresponse&gt;&#10;  &lt;p style=&quot;display:inline&quot;&gt;miles&lt;/p&gt;&#10;&lt;/p&gt;&#10;      &#10;  &#10;  &#10;&#10;&lt;/problem&gt;&#10;" weight="0.0">
+  <problem>
+    <p> Debbie runs 0.6 of a mile every day. How many miles will Debbie run in 45 days? </p>
+    <p>
+      <p style="display:inline">  </p>
+      <numericalresponse inline="1" answer="27">
+        <textline inline="1">
+          <responseparam type="tolerance" default="0%"/>
+        </textline>
+      </numericalresponse>
+      <p style="display:inline">miles</p>
+    </p>
+  </problem>
+</problem>

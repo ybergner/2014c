@@ -1,0 +1,9 @@
+<problem display_name="Numerical Input" markdown="&gt;&gt;Divide:&lt;&lt;&#10;&#10;&lt;p&gt; &lt;img src=&quot;/static/3311.gif&quot; /&gt;&lt;/p&gt;&#10;&#10;= 2.03&#10;" weight="0.0">
+  <p>Divide:</p>
+  <p>
+    <img src="/static/3311.gif"/>
+  </p>
+  <numericalresponse answer="2.03">
+    <formulaequationinput label="Divide:"/>
+  </numericalresponse>
+</problem>

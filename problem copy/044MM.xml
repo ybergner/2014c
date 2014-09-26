@@ -1,0 +1,11 @@
+<problem display_name="Numerical Input" markdown="&lt;p&gt;&lt;center&gt;&lt;img src=&quot;/static/4144.gif&quot; /&gt;&lt;/center&gt;&lt;/p&gt;&#10;&#10;&lt;p&gt;Chris wishes to carpet the rectangular room shown above. To the nearest &lt;u&gt;square yard&lt;/u&gt;, how many square yards of carpet are needed to carpet the floor of the room if the closet floor will not be carpeted? (1 square yard = 9 square feet)&lt;/p&gt;&#10;= 8&#10;&#10;&#10;" weight="0.0">
+  <p>
+    <center>
+      <img src="/static/4144.gif"/>
+    </center>
+  </p>
+  <p>Chris wishes to carpet the rectangular room shown above. To the nearest <u>square yard</u>, how many square yards of carpet are needed to carpet the floor of the room if the closet floor will not be carpeted? (1 square yard = 9 square feet)</p>
+  <numericalresponse answer="8">
+    <formulaequationinput/>
+  </numericalresponse>
+</problem>

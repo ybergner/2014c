@@ -1,0 +1,6 @@
+<problem display_name="Numerical Input" markdown="&gt;&gt;A contractor is building 5 different model homes on 5 adjacent lots on one side of a street. If 1 house is to be built on each lot, how many different arrangements of the 5 houses are possible?&lt;&lt;&#10;= 120&#10;" weight="0.0">
+  <p>A contractor is building 5 different model homes on 5 adjacent lots on one side of a street. If 1 house is to be built on each lot, how many different arrangements of the 5 houses are possible?</p>
+  <numericalresponse answer="120">
+    <formulaequationinput label="A contractor is building 5 different model homes on 5 adjacent lots on one side of a street. If 1 house is to be built on each lot, how many different arrangements of the 5 houses are possible?"/>
+  </numericalresponse>
+</problem>

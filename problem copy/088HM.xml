@@ -1,0 +1,12 @@
+<problem display_name="Numerical Input" markdown="null" weight="0.0">
+  <p>A rectangular pool 24 feet long, 8 feet wide, and 4 feet deep is filled with water. Water is leaking from the pool at the rate of 0.40 cubic feet per minute. At this rate, how many <u>hours</u> will it take for the water level to drop 1 foot?</p>
+  <p>
+    <p style="display:inline">  </p>
+    <numericalresponse inline="1" answer="8">
+      <textline inline="1">
+        <responseparam type="tolerance" default="0%"/>
+      </textline>
+    </numericalresponse>
+    <p style="display:inline">hours</p>
+  </p>
+</problem>

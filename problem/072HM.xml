@@ -1,0 +1,24 @@
+<problem display_name="Measurement" markdown="&lt;p&gt;Forwhat value of &lt;i&gt;x&lt;/i&gt; is 8&lt;sup&gt;12&lt;/sup&gt; = 16&lt;sup&gt;&lt;i&gt;x&lt;/i&gt;&lt;/sup&gt;?&lt;/p&gt;&#10;= 9&#10;&#10;&#10;&#10;" weight="0.0">
+<script type="text/python" system_path="python_lib">
+def hintfn1(answer_ids, student_answers, new_cmap, old_cmap):
+	global expect
+	aid = answer_ids[0]
+	ans = student_answers[aid]
+	if new_cmap.is_correct(aid):
+		hint='Your answer has been submitted'
+		new_cmap.set_hint_and_mode(aid,hint,'always')
+		new_cmap.set_property(aid,'npoints',1)
+		new_cmap.set_property(aid,'correctness','corrrectnr')
+	else:
+		hint='Your answer has been submitted'
+		new_cmap.set_hint_and_mode(aid,hint,'always')
+		new_cmap.set_property(aid,'npoints',1)
+		new_cmap.set_property(aid,'correctness','incorrectnr')
+	old_cmap=new_cmap
+</script>
+  <p>Forwhat value of <i>x</i> is 8<sup>12</sup> = 16<sup><i>x</i></sup>?</p>
+  <numericalresponse answer="9">
+    <formulaequationinput/>
+		<hintgroup hintfn="hintfn1"/> 
+   </numericalresponse>
+</problem>

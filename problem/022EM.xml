@@ -1,0 +1,24 @@
+<problem display_name="Measurement" markdown="&gt;&gt;John is going to cover an attic floor with insulation. The floor measures 25 feet by 35 feet. If one roll of insulation will cover 64 square feet, how many rolls of insulation does John need?&lt;&lt;&#10;= 14&#10;&#10;" weight="0.0">
+<script type="text/python" system_path="python_lib">
+def hintfn1(answer_ids, student_answers, new_cmap, old_cmap):
+	global expect
+	aid = answer_ids[0]
+	ans = student_answers[aid]
+	if new_cmap.is_correct(aid):
+		hint='Your answer has been submitted'
+		new_cmap.set_hint_and_mode(aid,hint,'always')
+		new_cmap.set_property(aid,'npoints',1)
+		new_cmap.set_property(aid,'correctness','corrrectnr')
+	else:
+		hint='Your answer has been submitted'
+		new_cmap.set_hint_and_mode(aid,hint,'always')
+		new_cmap.set_property(aid,'npoints',1)
+		new_cmap.set_property(aid,'correctness','incorrectnr')
+	old_cmap=new_cmap
+</script>
+  <p>John is going to cover an attic floor with insulation. The floor measures 25 feet by 35 feet. If one roll of insulation will cover 64 square feet, how many rolls of insulation does John need?</p>
+  <numericalresponse answer="14">
+    <formulaequationinput label="John is going to cover an attic floor with insulation. The floor measures 25 feet by 35 feet. If one roll of insulation will cover 64 square feet, how many rolls of insulation does John need?"/>
+		<hintgroup hintfn="hintfn1"/> 
+   </numericalresponse>
+</problem>

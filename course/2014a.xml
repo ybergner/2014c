@@ -1,0 +1,4 @@
+<course course_image="1641.jpg" disable_progress_graph="true" display_name="Collaborative Assessment in Math" ispublic="false" max_attempts="0" show_calculator="true" showanswer="never" start="2014-05-01T23:00:00Z" use_latex_compiler="true">
+  <chapter url_name="CollabAssess301"/>
+  <wiki slug="ICA.CA1.2014a"/>
+</course>

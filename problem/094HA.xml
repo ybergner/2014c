@@ -1,0 +1,29 @@
+<problem display_name="Algebra and functions" markdown="&lt;p&gt;&lt;center&gt;&lt;img src=&quot;/static/8694.gif&quot; /&gt;&lt;/center&gt;&lt;/p&gt;&#10;&lt;p&gt;In right triangle &lt;i&gt;ABC&lt;/i&gt; shown above, &lt;i&gt;AB&lt;/i&gt; = 14. What is &lt;i&gt;BC&lt;/i&gt; to the nearest hundredth?&lt;/p&gt;&#10;&#10;= 5.47&#10;" weight="0.0">
+<script type="text/python" system_path="python_lib">
+def hintfn1(answer_ids, student_answers, new_cmap, old_cmap):
+	global expect
+	aid = answer_ids[0]
+	ans = student_answers[aid]
+	if new_cmap.is_correct(aid):
+		hint='Your answer has been submitted'
+		new_cmap.set_hint_and_mode(aid,hint,'always')
+		new_cmap.set_property(aid,'npoints',1)
+		new_cmap.set_property(aid,'correctness','corrrectnr')
+	else:
+		hint='Your answer has been submitted'
+		new_cmap.set_hint_and_mode(aid,hint,'always')
+		new_cmap.set_property(aid,'npoints',1)
+		new_cmap.set_property(aid,'correctness','incorrectnr')
+	old_cmap=new_cmap
+</script>
+  <p>
+    <center>
+      <img src="/static/8694.gif"/>
+    </center>
+  </p>
+  <p>In right triangle <i>ABC</i> shown above, <i>AB</i> = 14. What is <i>BC</i> to the nearest hundredth?</p>
+  <numericalresponse answer="5.47">
+    <formulaequationinput/>
+		<hintgroup hintfn="hintfn1"/> 
+   </numericalresponse>
+</problem>

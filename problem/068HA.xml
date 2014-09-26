@@ -1,0 +1,29 @@
+<problem display_name="Algebra and functions" markdown="&lt;p&gt;&lt;center&gt;&lt;img src=&quot;/static/8768.gif&quot; /&gt;&lt;/center&gt;&lt;/p&gt;&#10;&#10;&gt;&gt;The graphs of y = f(x) and y = g(x) for 0 to 10 are shown in the figure above. For how many values of x is the product f (x) g( x) = 0 for 0 to 10?&lt;&lt;&#10;= 5&#10;&#10;" weight="0.0">
+<script type="text/python" system_path="python_lib">
+def hintfn1(answer_ids, student_answers, new_cmap, old_cmap):
+	global expect
+	aid = answer_ids[0]
+	ans = student_answers[aid]
+	if new_cmap.is_correct(aid):
+		hint='Your answer has been submitted'
+		new_cmap.set_hint_and_mode(aid,hint,'always')
+		new_cmap.set_property(aid,'npoints',1)
+		new_cmap.set_property(aid,'correctness','corrrectnr')
+	else:
+		hint='Your answer has been submitted'
+		new_cmap.set_hint_and_mode(aid,hint,'always')
+		new_cmap.set_property(aid,'npoints',1)
+		new_cmap.set_property(aid,'correctness','incorrectnr')
+	old_cmap=new_cmap
+</script>
+  <p>
+    <center>
+      <img src="/static/8768.gif"/>
+    </center>
+  </p>
+  <p>The graphs of y = f(x) and y = g(x) for 0 to 10 are shown in the figure above. For how many values of x is the product f (x) g( x) = 0 for 0 to 10?</p>
+  <numericalresponse answer="5">
+    <formulaequationinput label="The graphs of y = f(x) and y = g(x) for 0 to 10 are shown in the figure above. For how many values of x is the product f (x) g( x) = 0 for 0 to 10?"/>
+		<hintgroup hintfn="hintfn1"/> 
+   </numericalresponse>
+</problem>
