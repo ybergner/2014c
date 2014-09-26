@@ -1,31 +1,13 @@
 <problem display_name="Demographic Survey">
-
-<startouttext/>
-	<p></p>
-    <endouttext/>
-<script type="text/python" system_path="python_lib">
-def hintfn1(answer_ids, student_answers, new_cmap, old_cmap):
-	global expect
-	aid = answer_ids[0]
-	ans = student_answers[aid]
-	if new_cmap.is_correct(aid):
-		hint='Your answer has been submitted'
-		new_cmap.set_hint_and_mode(aid,hint,'always')
-		new_cmap.set_property(aid,'npoints',1)
-		new_cmap.set_property(aid,'correctness','corrrectnr')
-	else:
-		hint='Your answer has been submitted'
-		new_cmap.set_hint_and_mode(aid,hint,'always')
-		new_cmap.set_property(aid,'npoints',1)
-		new_cmap.set_property(aid,'correctness','incorrectnr')
-	old_cmap=new_cmap
-</script>
-
+ 
 <optionresponse>
-bloop squizzy. some butts are in this butt ?
-      <optioninput options="('option1','option2','option3')" correct="option1"></optioninput>
-          <hintgroup hintfn="hintfn1"/>
+ <p>What is your gender?</p>
+    
+    <optioninput
+  	options = “(‘NULL’, ‘Male’, ‘Female’, ‘Other’)” 
+	correct = “NULL”
+    >
+    </optioninput>	 
 </optionresponse>
-
 
 </problem>
