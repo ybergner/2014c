@@ -22,7 +22,7 @@ def hintfn1(answer_ids, student_answers, new_cmap, old_cmap):
 </script>
 
 <optionresponse>
-bloop squizzy. ome options?
+bloop squizzy. some butts are in this butt ?
       <optioninput options="('option1','option2','option3')" correct="option1"></optioninput>
           <hintgroup hintfn="hintfn1"/>
 </optionresponse>
